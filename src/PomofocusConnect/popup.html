@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomofocus Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pomofocus Stats</h1>
+        </header>
+        <section class="token-section">
+            <div class="buttons">
+                <button id="getToken">Recupera Token</button>
+                <button id="saveToken">Salva Token</button>
+                <button id="viewTokens">Visualizza Token Salvati</button>
+            </div>
+            <div class="input-container">
+                <input type="text" id="externalToken" placeholder="Inserisci token">
+                <p id="tokenDisplay">Token non recuperato.</p>
+            </div>
+            <div id="savedTokensList" class="token-list"></div>
+        </section>
+        <section class="stats-section">
+            <button id="showStats">Mostra Statistiche</button>
+            <pre id="statsOutput" class="stats-output"></pre>
+        </section>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

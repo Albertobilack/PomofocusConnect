@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Pomofocus Token Manager",
+    "version": "1.0",
+    "description": "Estensione per gestire i token di Pomofocus e visualizzare statistiche.",
+    "permissions": ["cookies", "storage"],
+    "host_permissions": ["https://pomofocus.io/*"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
